@@ -1,0 +1,169 @@
+.container {
+    position: relative;
+
+    overflow: hidden;
+    text-align: center;
+}
+.searchbar{
+    width: 54rem;
+    margin-top: 6px;
+    border: unset;
+    height: 2rem;
+    padding: 0px 10px;
+
+}
+
+.searchButton{
+    height: 2rem;
+    margin-right: 2rem;
+    background: white;
+    border: unset;
+}
+
+.sign{
+    font-size: 13px;
+    font-weight: 600;
+}.sub{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.label {
+    background: rgb(157, 230, 211);
+    width: 180px;
+    /* border-radius: 50%; */
+    transition: all .5s;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+    color: #05a8aa;
+    font-size: 1rem;
+    font-family: Helvetica;
+    font-weight: 100;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 25px 0px;
+    padding: 10px 0px 0px 0px;
+    border: 1px solid gray;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+  .lArrow{
+    height: 39px;
+    width: 36px;
+}
+
+    .rArrow{
+    height: 39px;
+    width: 36px;
+}
+
+  .imgCart{
+    height: 17px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+.prodImg
+{
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 2px solid gray;
+
+}
+  .box{
+    font-weight: 800;
+}
+
+  .box1{
+    font-weight: 600;
+}
+
+.tab {
+    display: none;
+}
+
+.tab: nth-of-type(1): checked~.label-container.label: nth-of-type(1),
+.tab: nth-of-type(2): checked~.label-container.label: nth-of-type(2),
+.tab: nth-of-type(3): checked~.label-container.label: nth-of-type(3),
+.tab: nth-of-type(4): checked~.label-container.label: nth-of-type(4),
+.tab: nth-of-type(5): checked~.label-container.label: nth-of-type(5),
+.tab: nth-of-type(6): checked~.label-container.label: nth-of-type(6) {
+    color: #fff;
+    opacity: 1;
+}
+
+.tab: nth-of-type(1): checked~.label-container.label: nth-of-type(1) {
+    background-color: #ffc107;
+}
+
+.tab: nth-of-type(2): checked~.label-container.label: nth-of-type(2) {
+    background-color: #05a8aa;
+}
+
+.tab: nth-of-type(3): checked~.label-container.label: nth-of-type(3) {
+    background-color: #05a8aa;
+}
+
+.tab: nth-of-type(4): checked~.label-container.label: nth-of-type(4) {
+    background-color: #05a8aa;
+}
+
+.tab: nth-of-type(5): checked~.label-container.label: nth-of-type(5) {
+    background-color: #05a8aa;
+}
+
+.tab: nth-of-type(6): checked~.label-container.label: nth-of-type(6) {
+    background-color: #05a8aa;
+}
+
+.content-container {
+    position: relative;
+    transition: all .5s;
+    width: 300%;
+}
+
+.content {
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-family: Helvetica;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+
+.tab: nth-of-type(1): checked~.content-container {
+    transform: translateX(0%);
+}
+
+.tab: nth-of-type(2): checked~.content-container {
+    transform: translateX(-33.3333%);
+}
+
+.tab: nth-of-type(3): checked~.content-container {
+    transform: translateX(-66.6666%);
+}
+
+
+.topnav.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-control-next, .carousel-control-prev
+{
+    width: 2% !important;
+}
